@@ -1,1 +1,24 @@
-h1 > under construction... <
+h1 > welcome to `iamseol.com`! <
+
+br ><
+
+p > this is my personal website where i showcase my challenging works, share my random thoughts, and keep track of things i found interesting. feel free to explore using the links below. <
+br ><
+
+p > contents: <
+br ><
+
+ul >
+  _internal_link projects >
+  _internal_link posts >
+<
+
+br ><
+
+p > social accounts: <
+br ><
+
+ul >
+  _social_link GitHub | https://github.com/iamseol | iamseol >
+  _social_link YouTube | https://youtube.com/@hi_iamseol | hi_iamseol >
+<
