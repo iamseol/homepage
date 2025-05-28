@@ -1,3 +1,3 @@
 # Homepage
 
-my homepage: https://iamseol.com
+My homepage at https://iamseol.com

@@ -1,36 +1,50 @@
 html lang en >
   head >
-    meta charset UTF-8 ><
-    meta name viewport | content width=device-width, initial-scale=1.0 ><
-    meta name generator | content txtweb ><
+    title > #title < 
 
-    link rel apple-touch-icon | sizes 180x180 | href /public/favicon/apple-touch-icon.png ><
-    link rel icon | type image/png | sizes 32x32 | href /public/favicon/favicon-32x32.png ><
-    link rel icon | type image/png | sizes 16x16 | href /public/favicon/favicon-16x16.png ><
-    link rel stylesheet | href /public/css/main.css ><
+    link rel stylesheet | href /public/css/main.css \
 
-    title > #1 < 
+    meta charset UTF-8 \
+    meta name viewport | content width=device-width, initial-scale=1.0 \
+    meta name generator | content txtweb \
 
-    meta name description | content #2 ><
-    meta name keywords | content personal, website, blog, txtweb ><
-    meta name author | content Seol SO ><
+    meta name description | content #description \
+    meta name keywords | content personal, website, projects, blog, engineering \
+    meta name author | content Seol SO \
 
-    meta property og:title | content #1 ><
-    meta property og:description | content #2 ><
-    meta property og:image | content https://iamseol.com/public/#3/ ><
-    meta property og:url | content https://iamseol.com ><
-    meta property og:type | content website ><
+    meta property og:title | content #title \
+    meta property og:description | content #description \
+    meta property og:image | content https://iamseol.com/public/#image_url \
+    meta property og:url | content https://iamseol.com \
+    meta property og:type | content website \
 
-    meta name twitter:title | content #1 ><
-    meta name twitter:description | content #2 ><
-    meta name twitter:card | content summary_large_image ><
-    meta name twitter:image | content https://iamseol.com/public/#3 ><
-    meta name twitter:site | content @hi_iamseol ><
+    meta name twitter:title | content #title \
+    meta name twitter:description | content #description \
+    meta name twitter:card | content summary_large_image \
+    meta name twitter:image | content https://iamseol.com/public/#image_url \
+    meta name twitter:site | content @hi_iamseol \
+
+    link rel apple-touch-icon | sizes 180x180 | href /public/favicon/apple-touch-icon.png \
+    link rel icon | type image/png | sizes 32x32 | href /public/favicon/favicon-32x32.png \
+    link rel icon | type image/png | sizes 16x16 | href /public/favicon/favicon-16x16.png \
   <
+
   header >
-    a href / > span > iamseol.com < <
-    #header ><
+    div >
+      a href / > span > iamseol.com < <
+      #header
+    <
+
+    div >
+      a href https://github.com/iamseol | target _blank > span > GH < <
+      span > | <
+      a href https://youtube.com/@hi_iamseol | target _blank > span > YT < <
+      span > | <
+      a href mailto: hi@iamseol.com > span > EM < <
+    <
   <
-  body > #main >< <
+
+  body > #main <
+
   footer > p > Copyright &copy; 2025 iamseol. All rights reserved. < <
 <

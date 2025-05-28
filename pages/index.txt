@@ -1,0 +1,18 @@
+_layout title homepage | description Welcome to iamseol.com | image_url something | header @header | main @main \
+
+@header
+
+@main
+
+h1 > Welcome to&nbsp; |q > iamseol.com < ! <
+
+p >
+  There is nothing to do here, but you can still find my projects and posts.
+<
+
+br \
+
+ul >
+  _list_anchor url /projects | content Projects \
+  _list_anchor url /posts | content Posts \
+<

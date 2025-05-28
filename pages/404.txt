@@ -1,0 +1,10 @@
+_layout title NOT FOUND | description The page you are looking for is not found | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href / > span > go back! < <
+
+@main
+
+h1 > NOT FOUND <

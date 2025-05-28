@@ -1,2 +1,0 @@
-li > span > #1:&nbsp; < a href #2 | target _blank > @#3 < <
-

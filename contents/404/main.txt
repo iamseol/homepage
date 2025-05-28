@@ -1,5 +1,0 @@
-h1 > 404 NOT FOUND 404 <
-
-br ><
-
-p > the page you are currently looking for is not found... <

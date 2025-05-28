@@ -1,1 +1,0 @@
-_layout posts | a list of posts | .jpg >

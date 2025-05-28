@@ -1,0 +1,15 @@
+_layout title projects | description list of projects | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /projects > span > projects < <
+
+@main
+
+h1 > List of Projects <
+
+ul >
+  _list_anchor url ./poterra | content Poterra \
+  _list_anchor url ./txt | content TXT Crates \
+<

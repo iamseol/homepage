@@ -137,18 +137,11 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
+blockquote {
   quotes: none;
 }
 blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:after {
   content: "";
   content: none;
 }
@@ -167,50 +160,77 @@ body {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 
-  font: Hack;
   font-family: Hack;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 300;
 }
 
 header {
   display: flex;
+  justify-content: space-between;
   border-bottom: 0.02rem solid rgb(255, 255, 255);
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 header > * {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+header > div > * {
   margin-right: 0.5rem;
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-h6 {
-  font-size: 1.05rem;
+h1::before {
+  content: "# ";
+}
+
+h2 {
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+h3::before {
+  content: "### ";
 }
 
 p,
 span {
-  line-height: 1.4rem;
+  word-spacing: -0.1rem;
+  line-height: 1.2rem;
+}
+
+q {
+  quotes: "`" "`";
+}
+
+q::before::selection,
+q::after::selection {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
 }
 
 q::selection {
   background-color: rgb(0, 0, 255);
   color: rgb(255, 255, 255);
-}
-
-main > section {
-  margin: 0rem;
-  padding: 0rem;
-  margin-bottom: 2rem;
 }
 
 a {
