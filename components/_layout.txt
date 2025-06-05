@@ -1,6 +1,6 @@
 html lang en >
   head >
-    title > #title < 
+    title > #title < // as you can see, it receives `title` as an argument
 
     meta charset UTF-8 \
     meta name viewport | content width=device-width, initial-scale=1.0 \
@@ -29,22 +29,24 @@ html lang en >
     style > !embed /public/css/main.css \ <
   <
 
-  header >
-    div >
-      a href / > span > iamseol.com < <
-      #header
+  body >
+    header >
+      div >
+        a href / > span > iamseol.com < <
+        #header
+      <
+
+      div >
+        a href https://github.com/iamseol | target _blank > span > GH < <
+        span > | <
+        a href https://youtube.com/@hi_iamseol | target _blank > span > YT < <
+        span > | <
+        a href mailto: hi@iamseol.com > span > EM < <
+      <
     <
 
-    div >
-      a href https://github.com/iamseol | target _blank > span > GH < <
-      span > | <
-      a href https://youtube.com/@hi_iamseol | target _blank > span > YT < <
-      span > | <
-      a href mailto: hi@iamseol.com > span > EM < <
-    <
+    main > #main <
+
+    footer > p > Copyright &copy; 2025 iamseol. All rights reserved. < <
   <
-
-  body > #main <
-
-  footer > p > Copyright &copy; 2025 iamseol. All rights reserved. < <
 <

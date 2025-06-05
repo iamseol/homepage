@@ -13,6 +13,6 @@ p >
 br \
 
 ul >
-  _list_anchor url /projects | content Projects \
-  _list_anchor url /posts | content Posts \
+  _list_anchor url projects | content Projects \
+  _list_anchor url posts | content Posts \
 <
