@@ -10,5 +10,5 @@ a href /posts > span > posts < <
 h1 > List of Posts <
 
 ul >
-  _list_anchor url ./why-quitting-school | content Why I Quitted School \
+  // _list_anchor url ./why-quitting-school | content Why I Quitted School \
 <

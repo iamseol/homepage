@@ -10,6 +10,6 @@ a href /projects > span > projects < <
 h1 > List of Projects <
 
 ul >
-  _list_anchor url ./poterra | content Poterra \
-  _list_anchor url ./txt | content TXT Crates \
+  // _list_anchor url ./poterra | content Poterra \
+  // _list_anchor url ./txt | content TXT Crates \
 <

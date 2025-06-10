@@ -1,0 +1,74 @@
+_layout title dump | description random thoughts | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /dump > span > dump < <
+
+@main
+
+h1 > Random Thoughts <
+
+h2 > yearly todos? <
+p >
+  prefix |br \
+
+  [s] = software |br \
+  [h] = hardware |br \
+
+  |br \
+
+  suffix |br \
+
+  ! = planned, done |br \
+  * = planned, not done |br \
+  ? = not planned, not done
+<
+
+ol >
+  li > 2025 <
+
+  ul >
+    li > [s] homepage! <
+    li > [s] txtlib! <
+    li > [s] txtweb! <
+    li > [s] txthttp! <
+    li > [s] txtvid? <
+    li > [h] poterra* <
+    li > [s] twobedsai* <
+    li > [h] picotune? <
+    li > [h] drone? <
+    li > [h] wastorage? <
+  <
+
+  li > 2026 <
+
+  ul >
+    li > [h] ddd? <
+    li > [h] mini motorway display? <
+    li > [h] vvg display? <
+    li > [h] mrc & mec? <
+    li > [h] quadrapedal bicycle? <
+  <
+
+  li > 2027 <
+
+  ul >
+    li > [h] javv? <
+    li > [h] north korea tuna? <
+    li > [h] hat? <
+  <
+
+  li > 2028 <
+
+  ul >
+    li > [h] house? <
+    li > [h] electric flying vehicle? <
+  <
+
+  li > 2029 <
+
+  ul >
+    li > [h] rocket? <
+  <
+<

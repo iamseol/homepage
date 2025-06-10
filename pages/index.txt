@@ -6,13 +6,8 @@ _layout title homepage | description Welcome to iamseol.com | image_url somethin
 
 h1 > Welcome to&nbsp; |q > iamseol.com < ! <
 
-p >
-  There is nothing to do here, but you can still find my projects and posts.
-<
-
-br \
-
 ul >
-  _list_anchor url projects | content Projects \
-  _list_anchor url posts | content Posts \
+  li > a href /projects > span > Projects < < <
+  li > a href /posts > span > Posts < < <
+  li > a href /dump > span > Random Thoughts < < <
 <
