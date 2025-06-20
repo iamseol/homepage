@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "Hack";
+  src:
+    url("/public/fonts/hnf-regular.ttf") format("ttf"),
+    url("/public/fonts/hnf-regular.woff") format("woff"),
+    url("/public/fonts/hnf-regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hack";
+  src:
+    url("/public/fonts/hnf-bold.ttf") format("ttf"),
+    url("/public/fonts/hnf-bold.woff") format("woff"),
+    url("/public/fonts/hnf-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hack";
+  src:
+    url("/public/fonts/hnf-italic.ttf") format("ttf"),
+    url("/public/fonts/hnf-italic.woff") format("woff"),
+    url("/public/fonts/hnf-italic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hack";
+  src:
+    url("/public/fonts/hnf-bolditalic.ttf") format("ttf"),
+    url("/public/fonts/hnf-bolditalic.woff") format("woff"),
+    url("/public/fonts/hnf-bolditalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* reset css */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+
+  font-family: Hack;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.02rem solid rgb(255, 255, 255);
+}
+
+header > * {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+header > div > * {
+  padding-right: 0.5rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1::before {
+  content: "# ";
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.8rem;
+}
+
+h3::before {
+  content: "### ";
+}
+
+p,
+span {
+  word-spacing: -0.1rem;
+  line-height: 1.2rem;
+}
+
+q {
+  quotes: "`" "`";
+}
+
+q::before::selection,
+q::after::selection {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+}
+
+q::selection {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+a::selection,
+a > span::selection {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+ul > li {
+  padding-bottom: 0.3rem;
+}
+
+ul > li:last-child {
+  padding-bottom: 0rem;
+}
+
+ul > li::before {
+  content: "- ";
+  padding-left: -1rem;
+}
+
+ol {
+  padding-left: 1.7rem;
+}
+
+*::selection {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer > p::selection {
+  background-color: rgb(0, 255, 0);
+}

@@ -1,0 +1,12 @@
+_layout title TXT Crates | description TXT Crates | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /projects > span > projects < <
+span > / <
+a href /projects/txt > span > txt-crates < <
+
+@main
+
+h1 > hi from txt <

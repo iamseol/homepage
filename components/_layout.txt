@@ -1,0 +1,52 @@
+html lang en >
+  head >
+    title > #title < // as you can see, it receives `title` as an argument
+
+    meta charset UTF-8 \
+    meta name viewport | content width=device-width, initial-scale=1.0 \
+    meta name generator | content txtweb \
+
+    meta name description | content #description \
+    meta name keywords | content personal, website, projects, blog, engineering \
+    meta name author | content Seol SO \
+
+    meta property og:title | content #title \
+    meta property og:description | content #description \
+    meta property og:image | content https://iamseol.com/public/#image_url \
+    meta property og:url | content https://iamseol.com \
+    meta property og:type | content website \
+
+    meta name twitter:title | content #title \
+    meta name twitter:description | content #description \
+    meta name twitter:card | content summary_large_image \
+    meta name twitter:image | content https://iamseol.com/public/#image_url \
+    meta name twitter:site | content @hi_iamseol \
+
+    link rel apple-touch-icon | sizes 180x180 | href /public/favicon/apple-touch-icon.png \
+    link rel icon | type image/png | sizes 32x32 | href /public/favicon/favicon-32x32.png \
+    link rel icon | type image/png | sizes 16x16 | href /public/favicon/favicon-16x16.png \
+
+    style > !embed /public/css/main.css \ <
+  <
+
+  body >
+    header >
+      div >
+        a href / > span > iamseol.com < <
+        #header
+      <
+
+      div >
+        a href https://github.com/iamseol | target _blank > span > GH < <
+        span > | <
+        a href https://youtube.com/@hi_iamseol | target _blank > span > YT < <
+        span > | <
+        a href mailto: hi@iamseol.com > span > EM < <
+      <
+    <
+
+    main > #main <
+
+    footer > p > Copyright &copy; 2025 iamseol. All rights reserved. < <
+  <
+<

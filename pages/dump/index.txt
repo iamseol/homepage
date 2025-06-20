@@ -1,0 +1,20 @@
+_layout title dump | description dump | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /dump > span > dump < <
+
+@main
+
+h1 > DUMP <
+p > This is a dump page where I put stuff to keep track of. <
+
+h2 > Plans for Projects <
+ul >
+  li > 25061:01 [s] homepage! <
+  li > 25061:01 [s] txtlib! <
+  li > 25061:01 [s] txtweb! <
+  li > 25061:01 [s] txthttp! <
+  li > 25071:04 [h] poterra* < // Poterra - Potted Plant Care System
+<

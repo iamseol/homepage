@@ -1,0 +1,13 @@
+_layout title Poterra | description Poterra | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /projects > span > projects < <
+span > / <
+a href /projects/poterra > span > poterra < <
+
+@main
+
+h1 > Poterra <
+p > Poterra is a set of devices that manage pot-based plants. <

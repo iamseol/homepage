@@ -1,0 +1,13 @@
+_layout title homepage | description Welcome to iamseol.com | image_url something | header @header | main @main \
+
+@header
+
+@main
+
+h1 > Welcome to&nbsp; |q > iamseol.com < ! <
+
+ul >
+  li > a href /projects > span > Projects < < <
+  li > a href /posts > span > Posts < < <
+  li > a href /dump > span > Dump < < <
+<

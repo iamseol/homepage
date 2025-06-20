@@ -1,0 +1,14 @@
+_layout title posts | description list of posts | image_url something | header @header | main @main \
+
+@header
+
+span > / <
+a href /posts > span > posts < <
+
+@main
+
+h1 > List of Posts <
+
+ul >
+  // _list_anchor url ./why-quitting-school | content Why I Quitted School \
+<
